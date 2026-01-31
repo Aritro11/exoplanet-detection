@@ -7,16 +7,17 @@ The **Kepler Objects of Interest (KOIs)** dataset contains several candidate obj
 ---
 
 ## Dataset
-The project uses the **Kepler KOI cumulative catalog** from NASA Exoplanet Archive.
+The dataset is sourced from the [NASA Exoplanet Archive – Cumulative KOI Table](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative).
 
-After cleaning:
-- Candidates were excluded (no confirmed label)
+After data-preprocessing, cleaning:
+- Objects labelled as 'Candidates' (may or may not be planets) were excluded
 - Missing rows were removed
 - Final training dataset included only **CONFIRMED** and **FALSE POSITIVE** KOIs
 
 ---
 
 ## Model
+
 The final model used is:
 
 **LightGBM Classifier**
