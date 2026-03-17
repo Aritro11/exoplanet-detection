@@ -52,5 +52,4 @@ RandomForest, XGBoost and LightGBM models were trained and tested:
 
 ## Outputs
 
-1. Trained model that classifies KOIs.
-2. CSV file containing a ranked list of candidate KOIs sorted by predicted planet probability.
+1. CSV file containing a ranked list of candidate KOIs sorted by predicted planet probability.
